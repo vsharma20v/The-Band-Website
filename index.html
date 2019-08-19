@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Band | We see life in terms of music</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="home">
+    <header class="main-header">
+        <div class="fas fa-bars mobile-menu__icon" title="Menu"></div>
+        <nav class="main-header-nav">
+            <ul class="main-header-links">
+                <li class="main-header-link"><a href="#home">Home</a></li>
+                <li class="main-header-link"><a href="#about">About</a></li>
+                <li class="main-header-link"><a href="#concerts">Concerts</a></li>
+                <li class="main-header-link"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main-header-bell">
+            <span class="far fa-bell"></span>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <div class="fas fa-times mobile-menu__close-btn" title="Close"></div>
+        <ul class="mobile-menu-links">
+            <li class="mobile-menu-link"><a href="#home">Home</a></li>
+            <li class="mobile-menu-link"><a href="#about">About</a></li>
+            <li class="mobile-menu-link"><a href="#concerts">Concerts</a></li>
+            <li class="mobile-menu-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="band-overview">
+            <h2 class="band-overview__title">The Band</h2>
+            <p class="band-overview__subtitle">Music in the soul can be heard by the universe!</p>
+            <div class="fas fa-caret-down scroll-indicator"></div>
+        </section>
+        <section class="band" id="about">
+            <h2 class="band-title">About</h2>
+            <p class="band-subtitle">music is life</p>
+            <p class="band-about">The Band is a rock band formed in Delhi in 1997. We have a team of three members. Our style is folk and fusion music and we perfom rock and pop music concerts at any event. We are a power trio of a guitar player, a drummer and a signer.</p>
+            <div class="band-members">
+                <div class="band-member">
+                    <h3 class="band-member-name">Singer</h3>
+                    <div class="band-member__image-container">
+                        <img  class="band-member__image" src="./Assets/singer.jpg" alt="singer image">
+                    </div>
+                </div>
+                <div class="band-member">
+                    <h3 class="band-member-name">Guitarist</h3>
+                    <div class="band-member__image-container">
+                        <img  class="band-member__image" src="./Assets/guitar.jpg" alt="guitar image">
+                    </div>
+                </div>
+                <div class="band-member">
+                    <h3 class="band-member-name">Drummer</h3>
+                    <div class="band-member__image-container">
+                        <img  class="band-member__image" src="./Assets/drummer.jpg" alt="drummer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tour" id="concerts">
+            <h2 class="tour-title">Concerts</h2>
+            <p class="tour-subtitle">Our upcoming events</p>
+            
+            <ul class="tour-months">
+                <li class="tour-month">September</li>
+                <li class="tour-month">October</li>
+                <li class="tour-month">November</li>
+            </ul>
+            
+            <div class="tour-cards">
+                <div class="tour-card">
+                    <div class="tour-card__image-container">
+                        <div class="tour-card__image-overlay"></div>
+                        <img class="tour-card__image" src="./Assets/newyork.jpg" alt="New York image">
+                    </div>
+                    <div class="tour-card__info">
+                        <h3 class="tour-card__place">New York</h3>
+                        <p class="tour-card__date">Fri 27 Nov 2018</p>
+                        <p class="tour-card__about">Remix music event</p>
+                        <button class="tour-card__buy-btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image-container">
+                        <div class="tour-card__image-overlay"></div>
+                        <img class="tour-card__image" src="./Assets/paris.jpg" alt="Paris image">
+                    </div>
+                    <div class="tour-card__info">
+                        <h3 class="tour-card__place">Paris</h3>
+                        <p class="tour-card__date">Sat 21 Oct 2018</p>
+                        <p class="tour-card__about">Rock and fusion music event</p>
+                        <button class="tour-card__buy-btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-card__image-container">
+                        <div class="tour-card__image-overlay"></div>
+                        <img class="tour-card__image" src="./Assets/sanfran.jpg" alt="San Francisco image">
+                    </div>
+                    <div class="tour-card__info">
+                        <h3 class="tour-card__place">San Francisco</h3>
+                        <p class="tour-card__date">Sun 29 Nov 2018</p>
+                        <p class="tour-card__about">EDM night event</p>
+                        <button class="tour-card__buy-btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contact</h2>
+            <p class="contact-subtitle">let's connect</p>
+            <div class="contact-area">
+                <ul class="contact-lists">
+                    <li class="contact-list">
+                        <p class="fas fa-map-marker-alt"></p>
+                        <p>Delhi, India</p>
+                    </li>
+                    <li class="contact-list"> 
+                        <p class="fas fa-mobile-alt"></p> 
+                        <p>Phone: +91 8888888888</p>
+                    </li>
+                    <li class="contact-list">
+                        <p class="fas fa-envelope"></p>
+                        <p>Email: band@gmail.com</p>
+                    </li>
+                </ul>
+                <form action="" class="contact-form">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="message" placeholder="Message">
+                    <input type="submit" value="SEND">
+                </form>
+            </div>
+        </section>
+        <section class="map">
+        </section>
+    </main>
+    <footer class="main-footer">
+        <ul class="main-footer__links">
+            <li class="main-footer__link"><a href="#"><span class="fab fa-facebook"></span></a></li>
+            <li class="main-footer__link"><a href="#"><span class="fab fa-instagram"></span></a></li>
+            <li class="main-footer__link"><a href="#"><span class="fab fa-twitter"></span></a></li>
+        </ul>
+        <p class="main-footer__info">Made with <span class="fas fa-heart"></span> by Vaibhav</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
